@@ -11,9 +11,23 @@ header{
     margin: 3%;
 }
 
+#container{
+    display: flex;
+}
+
 .box{
     background-color:rgb(153,153,153);
     border: 2px solid black;
+    margin: 50px;
+}
+
+.title{
+    position: absolute;
+    justify-content: left;
+}
+
+.content{
+    /* clear: left; */
 }
 
 .chicken{
