@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
@@ -13,21 +14,23 @@ header{
 
 #container{
     display: flex;
+    padding: 20px;
 }
 
 .box{
     background-color:rgb(153,153,153);
     border: 2px solid black;
-    margin: 50px;
+    margin: 1em;
 }
 
 .title{
-    position: absolute;
-    justify-content: left;
+    float: right;
+    padding: 5px;
+    font-size: 24px;
 }
 
 .content{
-    /* clear: left; */
+    clear: right;
 }
 
 .chicken{
@@ -40,4 +43,9 @@ header{
 
 .sushi{
     background-color: rgb(229,209,152);
+}
+
+p{
+    padding: 10px;
+    font-size: 22px;
 }
