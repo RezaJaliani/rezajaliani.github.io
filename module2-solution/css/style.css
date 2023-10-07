@@ -21,7 +21,7 @@ header{
 .box{
     background-color:rgb(153,153,153);
     border: 2px solid black;
-    margin: 1em;
+    margin: 2px;
     width: 100%;
 }
 
